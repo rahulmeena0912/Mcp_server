@@ -1,4 +1,4 @@
-# fintra-mcp-server
+# mcp-server
 
 A Model Context Protocol (MCP) server for database schema management and querying, built with Node.js and TypeScript.
 
