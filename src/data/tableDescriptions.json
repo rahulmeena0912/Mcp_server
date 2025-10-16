@@ -1,0 +1,42 @@
+{
+  "subject_attribute_value": {
+    "description": "Stores patients information and attribute values associated with subjects or patients with respect to attribute name like middle_name, date_of_birth, email_id, phone, age, gender, city, etc.",
+    "columns": [
+      "subject_attribute_value_id",
+      "subject_id", 
+      "attribute_name",
+      "attribute_value"
+    ]
+  },
+  "case_sample": {
+    "description": "Stores information about samples.",
+    "columns": [
+      "case_sample_id",
+      "sample_barcode",
+      "sample_type",
+      "specimen",
+      "accession_id",
+      "subject_id"
+    ]
+  },
+  "user_master": {
+    "description": "Stores user information.",
+    "columns": [
+      "user_master_id",
+      "title",
+      "name",
+      "mname",
+      "lname",
+      "address1",
+      "address2",
+      "city",
+      "state",
+      "zip_code",
+      "country",
+      "email",
+      "phone",
+      "username",
+      "password"
+    ]
+  }
+}

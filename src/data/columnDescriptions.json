@@ -1,0 +1,33 @@
+{
+  "subject_attribute_value": {
+    "subject_attribute_value_id": "Unique identifier for the attribute value",
+    "subject_id": "Identifier for the associated subject or patient",
+    "attribute_name": "Name of the attribute (e.g., middle_name, date_of_birth)",
+    "attribute_value": "Value of the attribute"
+  },
+  "case_sample": {
+    "case_sample_id": "Unique identifier for the case sample",
+    "sample_barcode": "Unique Barcode for the sample",
+    "sample_type": "Type of the sample (e.g., TISSUE, FLUID)",
+    "specimen": "Stores the specimen type of the sample (e.g., BLOOD, URINE, FFPE, CSF, ASCITIC FLUID, etc.)",
+    "accession_id": "Identifier for the associated accession",
+    "subject_id": "Identifier for the associated subject or patient"
+  },
+  "user_master": {
+    "user_master_id": "Unique identifier for the user",
+    "title": "Title of the user (e.g., Mr., Ms., Dr.)",
+    "name": "First name of the user",
+    "mname": "Middle name of the user", 
+    "lname": "Last name of the user",
+    "address1": "Primary address of the user",
+    "address2": "Secondary address of the user",
+    "city": "City of the user",
+    "state": "State of the user",
+    "zip_code": "ZIP code of the user",
+    "country": "Country of the user",
+    "email": "Email address of the user",
+    "phone": "Phone number of the user",
+    "username": "Username of the user",
+    "password": "Password of the user"
+  }
+}
