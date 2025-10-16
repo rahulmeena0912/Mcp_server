@@ -74,7 +74,6 @@ export class McpServerTools {
       description: "Returns the description and columns name of some of the tables from tableSchema use this while querying database for better results",
       execute: async () => {
         const tableDescriptions = getTableDescription();
-        console.log("Fetching table schema description", tableDescriptions);
         return JSON.stringify(tableDescriptions, null, 2);
       }
     };
